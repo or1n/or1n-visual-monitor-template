@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "or1n-visual-monitor-template"
+version = "2026.10.15.14.30.00.000"
+description = "A general-purpose visual monitoring and alert overlay template for screen-based detection workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "or1n" }]
+keywords = ["overlay", "automation", "screen-monitor", "template", "hotkeys"]
+dependencies = [
+  "numpy",
+  "opencv-python",
+  "mss",
+  "keyboard",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

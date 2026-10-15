@@ -1,0 +1,32 @@
+{
+  "hotkey": "f12",
+  "target_window_title": "",
+  "target_window_hwnd": null,
+  "overlay_x": 200,
+  "overlay_y": 180,
+  "overlay_width": 900,
+  "overlay_height": 220,
+  "font_family": "Segoe UI",
+  "font_weight": "bold",
+  "font_color": "#ff3333",
+  "font_size": 28,
+  "record_duration_sec": 2.0,
+  "record_fps": 12,
+  "skills": [
+    {
+      "name": "Status 1",
+      "reference_dir": "reference_samples/example_check",
+      "box": {"top": 40, "left": 2450, "width": 40, "height": 40},
+      "alert_text": "⚠️ STATUS MISSING! ⚠️",
+      "font_size": 28,
+      "record_hotkey": "f12",
+      "overlay_x": 200,
+      "overlay_y": 180,
+      "overlay_width": 900,
+      "overlay_height": 220,
+      "font_color": "#ff3333",
+      "font_family": "Segoe UI",
+      "font_weight": "bold"
+    }
+  ]
+}

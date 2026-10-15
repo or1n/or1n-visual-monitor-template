@@ -1,0 +1,34 @@
+# Local runtime data
+config.json
+config/*.json
+buff_config.json
+buff_reference/
+buff_reference/**
+reference/
+reference_samples/
+**/reference/
+**/reference_samples/
+*.local.json
+*.secret.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
